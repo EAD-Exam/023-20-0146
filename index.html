@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="flex flex-col md:flex-row justify-between items-center py-4 px-2 md:px-6"
+    >
+      <div class="m-0 md:mr-0">
+        <h1 class="text-2xl font-bold text-[#331B3B] font-serif">ShopSavvy+</h1>
+      </div>
+
+      <!-- Nav buttons -->
+      <div class="flex gap-6">
+        <a class="font-semibold text-gray-600 hover:text-[#331B3B]" href=""
+          >Home</a
+        >
+        <a class="font-semibold text-gray-600 hover:text-[#331B3B]" href=""
+          >About Us</a
+        >
+        <a class="font-semibold text-gray-600 hover:text-[#331B3B]" href=""
+          >All Products</a
+        >
+        <a class="font-semibold text-gray-600 hover:text-[#331B3B]" href=""
+          >Contact Us</a
+        >
+      </div>
+
+      <div class="hidden md:visible md:inline-block">
+        <span class="px-2 py-1 border rounded-full"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></span>
+        <span class="px-2 py-1 border rounded-full"
+          ><i class="fa-brands fa-instagram"></i
+        ></span>
+        <span class="px-2 py-1 border rounded-full"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></span>
+      </div>
+    </nav>
+
+    <!-- Hero  -->
+    <div
+      class="flex flex-col md:flex-row h-auto justify-around items-center mt-16"
+    >
+      <div
+        class="px-4 md:px-30 mb-10 md:mb-0 text-[#331B3B] flex flex-col gap-3 items-center md:items-start text-center md:text-left"
+      >
+        <h2 class="text-4xl md:text-6xl font-bold">One Stop</h2>
+        <h2 class="text-6xl">Solution...</h2>
+        <span>
+          <hr class="w-56 h-4 bg-yellow-400 border-0 -mt-4 -z-10" />
+        </span>
+        <p class="w-fit md:w-96">
+          We are capatilizing on growing digital transformation in the retail
+          industry and create a one-stop solution for consumers seeking
+          convenience, cost-effectiveness and personalized shopping experiences.
+        </p>
+        <button
+          class="border-2 border-[#331B3B] w-fit rounded-lg px-3 py-1.5 font-medium text-[#331B3B] hover:bg-[#331B3B] hover:text-white"
+        >
+          Get Started
+        </button>
+      </div>
+
+      <!-- Hero image -->
+      <div
+        class="flex justify-center items-center bg-gray-300 p-6 rounded-full"
+      >
+        <img
+          class="h-72 md:h-96 w-72 md:w-96 rounded-full object-cover"
+          src="/assets/hero.jpg"
+          alt=""
+          srcset=""
+        />
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div
+      class="h-auto rounded-tr-3xl md:rounded-tr-[200px] lg:rounded-tr-[300px] xl:rounded-tr-[350px] mr-8 md:mr-12 my-16 pb-10 bg-[#ECF7FF] text-[#331B3B]"
+    >
+      <div class="flex flex-col items-center pt-4 md:pt-20">
+        <h2 class="text-4xl font-bold">What Best</h2>
+        <h2 class="text-3xl z-10">For You</h2>
+        <br />
+        <hr class="w-28 h-2 bg-yellow-400 border-0 -mt-3 ml-[118px]" />
+      </div>
+
+      <!-- Cards  -->
+      <div
+        class="flex flex-wrap justify-center mt-6 md:mt-10 lg:mt-20 ml-4 md:ml-0 xl:ml-16 my-12 mr-4 md:mr-0 lg:mr-36 gap-6"
+      >
+        <div
+          class="bg-white rounded-lg px-4 py-3 w-[330px] flex flex-col gap-2"
+        >
+          <span class="bg-[#FFDED4] rounded-md p-3 w-fit"
+            ><i
+              class="fa-solid fa-globe bg-black text-[#FFDED4] border-black border rounded-full"
+            ></i>
+          </span>
+          <h4 class="text-xl font-semibold">Advanced Technologies</h4>
+          <p>
+            Augmented Reality, Machine Learning and Artificial intelligence
+            helps revolutionized shopping experience
+          </p>
+        </div>
+
+        <div
+          class="bg-white rounded-lg px-4 py-3 w-[330px] flex flex-col gap-2"
+        >
+          <span class="bg-[#FFEED4] rounded-md p-3 w-fit"
+            ><i
+              class="fa-solid fa-globe bg-black text-pink-200 border-black border rounded-full"
+            ></i>
+          </span>
+          <h4 class="text-xl font-semibold">Convenience</h4>
+          <p>
+            Seamless shopping, where convenience meets choice at your
+            fingertips.
+          </p>
+        </div>
+
+        <div
+          class="bg-white rounded-lg px-4 py-3 w-[330px] flex flex-col gap-2"
+        >
+          <span class="bg-[#D4F0FF] rounded-md p-3 w-fit"
+            ><i
+              class="fa-solid fa-globe bg-black text-pink-300 border-black border rounded-full"
+            ></i>
+          </span>
+          <h4 class="text-xl font-semibold">Cost-Effectiveness</h4>
+          <p>
+            Quality products, unbeatable prices – your gateway to smart and
+            cost-effective shopping
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Us -->
+
+    <div
+      class="flex flex-col lg:flex-row px-2 md:px-10 justify-center my-10 gap-2 md:gap-8"
+    >
+      <div class="w-full lg:w-2/4">
+        <img
+          class="w-full h-full object-cover"
+          src="/assets/Hero1.jpg"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div
+        class="px-4 md:px-30 mb-10 md:mb-0 text-[#331B3B] flex flex-col gap-3 items-center md:items-start text-center md:text-left"
+      >
+        <div class="flex flex-col mt-4 lg:mt-0">
+          <h2 class="text-6xl font-bold">About Us</h2>
+          <br />
+          <hr class="w-28 self-end h-3 bg-yellow-400 border-0 -mt-3 -z-10" />
+        </div>
+        <p class="w-fit md:w-96">
+          Your ultimate destination for convenient, cost-effective, and
+          quality-driven shopping. Experience seamless browsing through our
+          diverse range of products, all curated for your satisfaction. With
+          unbeatable prices, exceptional customer service, and a commitment to
+          constant improvement, we're here to redefine your shopping experience.
+        </p>
+
+        <button
+          class="border-2 border-[#331B3B] w-fit rounded-lg px-3 py-1.5 font-medium text-[#331B3B] hover:bg-[#331B3B] hover:text-white"
+        >
+          Get Started
+        </button>
+      </div>
+    </div>
+
+    <!-- Recent works -->
+    <div
+      class="h-auto rounded-tl-3xl md:rounded-tl-[200px] lg:rounded-tl-[300px] xl:rounded-tl-[350px] ml-8 md:ml-12 my-16 pb-10 bg-[#FFDED4] text-[#331B3B]"
+    >
+      <div class="flex flex-col items-center pt-4 md:pt-20">
+        <h2 class="text-4xl font-bold">Our Products</h2>
+        <br />
+        <hr class="w-24 h-2 bg-yellow-400 border-0 -mt-3 ml-[98px]" />
+      </div>
+
+      <!-- Cards  -->
+      <div
+        class="flex flex-wrap justify-center mt-6 md:mt-10 lg:mt-20 mr-4 md:mr-0 xl:mr-16 my-12 ml-4 md:ml-0 lg:ml-36 gap-6"
+      >
+        <div
+          class="bg-white rounded-lg px-4 py-3 w-[330px] flex flex-col gap-2"
+        >
+          <img src="/assets/Hero4.jpg" alt="" />
+          <div class="flex justify-between">
+            <h3 class="text-base font-medium">Fashion and Apparel</h3>
+            <button
+              class="text-xs px-2 py-1 rounded-full text-[#331B3B] border-2 border-[#331B3B] hover:bg-[#331B3B] hover:text-white"
+            >
+              Show All
+            </button>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg px-4 py-3 w-[330px] flex flex-col gap-2"
+        >
+          <img src="/assets/Hero2.jpg" alt="" />
+          <div class="flex justify-between">
+            <h3 class="text-base font-medium">Electronics and Gadgets</h3>
+            <button
+              class="text-xs px-2 py-1 rounded-full text-[#331B3B] border-2 border-[#331B3B] hover:bg-[#331B3B] hover:text-white"
+            >
+              Show All
+            </button>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg px-4 py-3 w-[330px] flex flex-col gap-2"
+        >
+          <img src="/assets/Hero3.jpg" alt="" />
+          <div class="flex justify-between">
+            <h3 class="text-base font-medium">Home and Living</h3>
+            <button
+              class="text-xs px-2 py-1 rounded-full text-[#331B3B] border-2 border-[#331B3B] hover:bg-[#331B3B] hover:text-white"
+            >
+              Show All
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div>
+      <div class="flex justify-center">
+        <div class="flex flex-col mt-4 lg:mt-0 text-[#331B3B] text-center">
+          <h2 class="text-6xl font-bold">Our Testimonials</h2>
+          <h2 class="text-4xl md:text-6xl">What our Clients are Saying</h2>
+          <hr
+            class="w-0 sm:w-24 md:w-44 self-end mr-0 sm:mr-5 md:mr-0 h-3 bg-yellow-400 border-0 -mt-3 -z-10"
+          />
+        </div>
+      </div>
+      <div class="my-20 flex justify-center flex-wrap gap-8">
+        <div class="border border-[#331B3B] rounded-lg w-80 h-auto p-4">
+          <span
+            ><i class="fa-solid fa-quote-right fa-xl text-[#331B3B]"></i
+          ></span>
+          <p>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only
+            five centuries.
+          </p>
+        </div>
+        <div class="border border-[#331B3B] rounded-lg w-80 h-auto p-4">
+          <span
+            ><i class="fa-solid fa-quote-right fa-xl text-[#331B3B]"></i
+          ></span>
+          <p>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only
+            five centuries.
+          </p>
+        </div>
+        <div class="border border-[#331B3B] rounded-lg w-80 h-auto p-4">
+          <span
+            ><i class="fa-solid fa-quote-right fa-xl text-[#331B3B]"></i
+          ></span>
+          <p>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only
+            five centuries.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer & Contact -->
+    <div
+      class="h-auto rounded-tr-3xl md:rounded-tr-[100px] mt-16 pb-10 bg-[#331B3B] text-white"
+    >
+      <div class="flex flex-col md:flex-row justify-around items-center gap-10">
+        <div class="px-6 pt-4">
+          <h1 class="text-2xl font-bold text-white font-serif">Dream Agency</h1>
+          <p>GET IN TOUCH</p>
+          <div class="flex flex-col gap-2 my-4">
+            <span class="flex items-center text-sm gap-3 text-white"
+              ><i class="fa-solid fa-phone"></i>
+              <p class="-mt-1">+92 333 1234567</p>
+            </span>
+            <span class="flex items-center gap-3 text-sm text-white"
+              ><i class="fa-solid fa-envelope"></i>
+              <p class="-mt-1">dreamagency@gmail.com</p>
+            </span>
+            <span class="flex items-center gap-3 text-sm text-white"
+              ><i class="fa-solid fa-location-dot"></i>
+              <p class="-mt-1">Street # 12,Gulshan Colony, Calefornia</p>
+            </span>
+          </div>
+          <span>
+            <input
+              class="bg-[#331B3B] border-2 border-white focus:outline-none pl-1 m-0"
+              type="mail"
+            />
+            <button
+              class="border-2 border-l-2 border-white -ml-2 px-2 bg-white font-medium text-[#331B3B] hover:text-white hover:bg-[#331B3B]"
+            >
+              Send
+            </button>
+          </span>
+        </div>
+        <div class="w-80 h-44 rounded-3xl pb-4">
+          <iframe
+            class="gmap_iframe rounded-3xl"
+            width="100%"
+            height="120%"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=600&amp;height=337&amp;hl=en&amp;q=sukkur&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
